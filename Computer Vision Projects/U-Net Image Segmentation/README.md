@@ -16,7 +16,7 @@
 
 ## UNet vs UNet++
 
-             UNet   |   UNet++
+ *           UNet       UNet++
 
 Loss:       0.1176      0.0765
 
