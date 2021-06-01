@@ -17,7 +17,7 @@ As you can see UNet++ is clearly better when compared UNet. The dense convolutio
 
 ## Setting Up
 
-# install requirements
+# Install Requirements
 ```
 pip install elasticdeform
 ```
