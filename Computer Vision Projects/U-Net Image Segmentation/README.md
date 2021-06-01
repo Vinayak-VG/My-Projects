@@ -1,11 +1,15 @@
 # UNet Biomedical Image Segmentation
 
 ## UNet
-Code : [UNet](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation/U-Net/UNet.ipynb)
+[UNet Pytorch Code](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation/U-Net/UNet.ipynb)
 
-Paper : [UNet Paper](https://arxiv.org/pdf/1505.04597.pdf)
+[UNet Colab Link](https://colab.research.google.com/drive/1G8ZBrbeFKVr7QOqfXsjmPY07OvRm1kaa?usp=sharing)
+
+[UNet Paper](https://arxiv.org/pdf/1505.04597.pdf)
 
 ## UNet++ 
-Code : [UNet++](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation/U-Net%2B%2B/UNet%2B%2B.ipynb)
+[UNet++ Pytorch Code](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation/U-Net%2B%2B/UNet%2B%2B.ipynb)
 
-Paper : [UNet++ Paper](https://arxiv.org/pdf/1807.10165.pdf)
+[UNet++ Colab Link](https://colab.research.google.com/drive/1TyBJHZRoVzZfwarTbzbeq3NyCHyPuqAy?usp=sharing)
+
+[UNet++ Paper](https://arxiv.org/pdf/1807.10165.pdf)
