@@ -6,6 +6,9 @@
 | Colab Link   |[UNet Colab Link](https://colab.research.google.com/drive/1G8ZBrbeFKVr7QOqfXsjmPY07OvRm1kaa?usp=sharing)      |   [UNet++ Colab Link](https://colab.research.google.com/drive/1TyBJHZRoVzZfwarTbzbeq3NyCHyPuqAy?usp=sharing)|
 | Paper        | [UNet Paper](https://arxiv.org/pdf/1505.04597.pdf)      | [UNet++ Paper](https://arxiv.org/pdf/1807.10165.pdf) |
 
+![test_labels-13](https://user-images.githubusercontent.com/80670240/120366708-9bd05b00-c32d-11eb-9772-389a6c421d90.jpg)
+
+
 ## UNet vs UNet++
 
 | Model:        | UNet          | UNet++|
