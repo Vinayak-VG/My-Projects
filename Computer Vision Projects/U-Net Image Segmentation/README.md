@@ -21,6 +21,8 @@
 | Loss          | 0.1176        | 0.0756|
 | Accuracy      | 95.3%         | 97.8% |
 
+As you can see UNet++ is clearly better when compared UNet. The dense convolution blocks and the skip pathways help to reduce the semantic gap between the encoder and the decoder part and hence the loss function is able to converge to the minima easily and hence better accuracy
+
 
 
 
