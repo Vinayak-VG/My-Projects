@@ -14,4 +14,14 @@
 
 [UNet++ Paper](https://arxiv.org/pdf/1807.10165.pdf)
 
+## UNet vs UNet++
+
+             UNet   |   UNet++
+---
+Loss:       0.1176      0.0765
+---
+Accuracy:   95.3%        97.8%
+---
+
+
 
