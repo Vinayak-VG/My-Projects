@@ -33,7 +33,6 @@ The data set is provided by the EM segmentation challenge that was started at IS
 ---
 
 [Vinayak Gupta](https://github.com/Vinayak-VG)
-
 1st June 2021
 
 
