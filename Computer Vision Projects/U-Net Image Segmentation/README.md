@@ -30,8 +30,10 @@ pip install elasticdeform
 
 The data set is provided by the EM segmentation challenge that was started at ISBI 2012. The training data is a set of 30 images (512x512 pixels) from serial section transmission electron microscopy of the Drosophila first instar larva ventral nerve cord (VNC). Each image comes with a corresponding fully annotated ground truth segmentation map for cells (white) and membranes (black).
 
+---
 
-
+[Vinayak Gupta](https://github.com/Vinayak-VG)
+1st June 2021
 
 
 
