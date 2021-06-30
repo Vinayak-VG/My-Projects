@@ -21,7 +21,7 @@ As you can see UNet++ is clearly better when compared UNet. The dense convolutio
 
 ![test_labels-13](https://user-images.githubusercontent.com/80670240/120366708-9bd05b00-c32d-11eb-9772-389a6c421d90.jpg)
 
-The image on the left represents serial section transmission electron microscopy of the Drosophila first instar larva ventral nerve cord (VNC). The image on the right is the segmentation image of the image on the left side predicted by the U-Net Model
+The image on the left represents serial section transmission electron microscopy of the Drosophila first instar larva ventral nerve cord (VNC). The image on the right is the segmentation map of the image on the left predicted by the U-Net Model
 
 # Setting Up
 
