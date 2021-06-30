@@ -5,8 +5,8 @@
 | Pytorch Code |[UNet Pytorch Code](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation/U-Net/UNet.ipynb)| [UNet++ Pytorch Code](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation/U-Net%2B%2B/UNet%2B%2B.ipynb)|
 | Colab Link   |[UNet Colab Link](https://colab.research.google.com/drive/1G8ZBrbeFKVr7QOqfXsjmPY07OvRm1kaa?usp=sharing)      |   [UNet++ Colab Link](https://colab.research.google.com/drive/1TyBJHZRoVzZfwarTbzbeq3NyCHyPuqAy?usp=sharing)|
 | Paper        | [UNet Paper](https://arxiv.org/pdf/1505.04597.pdf)      | [UNet++ Paper](https://arxiv.org/pdf/1807.10165.pdf) |
+| Report       | [UNet Report]([U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf](https://github.com/Vinayak-VG/My-Projects/files/6740030/U-Net_.Convolutional.Networks.for.Biomedical.Image.Segmentation.pdf)   | [UNet++ Report]([UNet++_ A Nested U-Net Architecture for Medical Image Segmentation.pdf](https://github.com/Vinayak-VG/My-Projects/files/6740032/UNet%2B%2B_.A.Nested.U-Net.Architecture.for.Medical.Image.Segmentation.pdf)   | 
 
-![test_labels-13](https://user-images.githubusercontent.com/80670240/120366708-9bd05b00-c32d-11eb-9772-389a6c421d90.jpg)
 
 
 ## UNet vs UNet++
@@ -17,6 +17,10 @@
 | Accuracy      | 95.3%         | 97.8% |
 
 As you can see UNet++ is clearly better when compared UNet. The dense convolution blocks and the skip pathways help to reduce the semantic gap between the encoder and the decoder part and hence the loss function is able to converge to the minima easily and hence better accuracy
+
+
+![test_labels-13](https://user-images.githubusercontent.com/80670240/120366708-9bd05b00-c32d-11eb-9772-389a6c421d90.jpg)
+
 
 # Setting Up
 
