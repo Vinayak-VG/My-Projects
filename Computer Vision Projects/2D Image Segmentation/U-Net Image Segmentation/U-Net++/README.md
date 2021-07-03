@@ -12,7 +12,7 @@ In the U-Net model, we concatenate the feature maps from the encoder part to the
 
 ### Previous Work
 
-U-net: Convolutional networks for biomedical image segmentation: [Link](https://arxiv.org/pdf/1505.04597.pdf)
+U-Net: Convolutional networks for biomedical image segmentation: [Link](https://arxiv.org/pdf/1505.04597.pdf)
 
 ### UNet++
 
