@@ -39,11 +39,14 @@ We concatenate the local and global features which makes optimisation faster sin
 ### Dataset 
 
 We experiment on the [Stanford 3D Semantic Parsing Dataset](http://buildingparser.stanford.edu/dataset.html). The dataset contains 3D scans from Matterport scanners in 6 areas including 271 rooms. Each point in the scan is annotated with one of the semantic labels from 13 categories (chair, table, floor, wall etc. plus clutter). To prepare training data, we firstly split points by room, and then sample rooms into blocks with area 1m by 1m. We train our segmentation version of PointNet to predict per point class in each block
+
 Each point is represented by a 9-dim vector of XYZ, RGB and normalized location as to the room (from 0 to 1). At training time, we randomly sample 4096 points from each room
 
 ### Training
 No Dropouts used. The [momentum for batch normalization](https://medium.com/@ilango100/batchnorm-fine-tune-your-booster-bef9f9493e22) starts with 0.5 and is gradually increased to 0.99. We use adam optimizer with an initial learning rate 0.001, momentum 0.9 and batch size 32. The learning rate is divided by 2 every 20 epochs.
-Loss Function: Softmax classification loss + Regularisation loss 
+
+Loss Function: Softmax classification loss + Regularisation loss
+
 Accuracy Metric: IoU Score and Per-Point classification accuracy
 
 ### EndNote
