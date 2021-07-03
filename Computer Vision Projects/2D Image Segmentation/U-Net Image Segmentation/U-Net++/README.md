@@ -42,8 +42,11 @@ They have used the IoU score instead of normal pixel-pixel comparison because Io
 ### Training
 
 Optimizer: Adam Optimizer
+
 Batch Size: 1
+
 Learning Rate: 1e-3
+
 Loss Function: BCE + Dice Loss
 
 ### Results
