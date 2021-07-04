@@ -48,6 +48,6 @@ IoU Score: 95.3%
 ### End Note
 To know more about the U-Net Model, check out the paper: [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
-To check out the Pytorch Implementation of the U-Net model, check out my GitHub Repo: [GitHub Repo](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation)
+To check out the Pytorch Implementation of the U-Net model, check out my GitHub Repo: [GitHub Repo](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/2D%20Image%20Segmentation/U-Net%20Image%20Segmentation/U-Net/UNet.ipynb)
 
 PS: I have included the train and test data in the GitHub repository. Unfortunately, the segmentation maps for the test data are unavailable.  
