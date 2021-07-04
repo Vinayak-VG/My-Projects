@@ -52,7 +52,10 @@ Accuracy Metric: IoU Score and Per-Point classification accuracy
 ### EndNote
 To get to know more about the model, check out the paper: [PointNet](https://arxiv.org/pdf/1612.00593.pdf)
 
+---
 
+[Vinayak Gupta](https://github.com/Vinayak-VG)
+3rd July 2021
 
 
 
