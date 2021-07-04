@@ -61,4 +61,4 @@ This shows that the bridging of the semantic gap between the encoder and decoder
 
 To know more about U-Net++, check out the paper: [U-Net++](https://arxiv.org/pdf/1807.10165.pdf)
 
-To check out the Pytorch Implementation of the U-Net model, check out my GitHub Repo: [GitHub Repo](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation)
+To check out the Pytorch Implementation of the U-Net model, check out my GitHub Repo: [GitHub Repo](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/2D%20Image%20Segmentation/U-Net%20Image%20Segmentation/U-Net%2B%2B/UNet%2B%2B.ipynb)
