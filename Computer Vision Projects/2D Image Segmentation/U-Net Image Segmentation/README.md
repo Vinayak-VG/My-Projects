@@ -2,7 +2,7 @@
 
 | Model:       | UNet           | UNet++           |
 | -------------|:-------------:|:-------------:|
-| Pytorch Code |[UNet Pytorch Code](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation/U-Net/UNet.ipynb)| [UNet++ Pytorch Code](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/U-Net%20Image%20Segmentation/U-Net%2B%2B/UNet%2B%2B.ipynb)|
+| Pytorch Code |[UNet Pytorch Code](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/2D%20Image%20Segmentation/U-Net%20Image%20Segmentation/U-Net/UNet.ipynb)| [UNet++ Pytorch Code](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer%20Vision%20Projects/2D%20Image%20Segmentation/U-Net%20Image%20Segmentation/U-Net%2B%2B/UNet%2B%2B.ipynb)|
 | Colab Link   |[UNet Colab Link](https://colab.research.google.com/drive/1G8ZBrbeFKVr7QOqfXsjmPY07OvRm1kaa?usp=sharing)      |   [UNet++ Colab Link](https://colab.research.google.com/drive/1TyBJHZRoVzZfwarTbzbeq3NyCHyPuqAy?usp=sharing)|
 | Paper        | [UNet Paper](https://arxiv.org/pdf/1505.04597.pdf)      | [UNet++ Paper](https://arxiv.org/pdf/1807.10165.pdf) |
 | Report       | [UNet Report](https://github.com/Vinayak-VG/My-Projects/files/6740030/U-Net_.Convolutional.Networks.for.Biomedical.Image.Segmentation.pdf)   | [UNet++ Report](https://github.com/Vinayak-VG/My-Projects/files/6740032/UNet%2B%2B_.A.Nested.U-Net.Architecture.for.Medical.Image.Segmentation.pdf)   | 
