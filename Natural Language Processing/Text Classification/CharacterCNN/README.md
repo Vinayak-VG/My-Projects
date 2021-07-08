@@ -10,6 +10,6 @@ Since it is character based and not word based, we don't need any text processin
 
 **Pytorch Implementation** : [CharacterCNN](https://github.com/Vinayak-VG/My-Projects/blob/main/Natural%20Language%20Processing/Text%20Classification/CharacterCNN/CharacterCNN.ipynb)
 
-**Colab Link** : [![Open All Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Vinayak-VG/My-Projects/Natural_Language_Processing/Text_Classification_CharacterCNN)
+**Colab Link** : [![Open All Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Vinayak-VG/My-Projects/Natural%20Language%20Processing/Text%20Classification/CharacterCNN/CharacterCNN.ipynb)
 
 **Paper** : [CharacterCNN Paper](https://arxiv.org/pdf/1509.01626.pdf)
