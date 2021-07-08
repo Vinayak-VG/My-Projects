@@ -5,5 +5,5 @@ To solve this issue, they introduce KimCNN. This model architecture uses Convolu
 
 **Pytorch Implementation** : [KimCNN](https://github.com/Vinayak-VG/My-Projects/blob/main/Natural%20Language%20Processing/Text%20Classification/KimCNN/KimCNN.ipynb)
 
-**Paper** : [KimmCNN Paper](https://arxiv.org/pdf/1408.5882.pdf)
+**Paper** : [KimCNN Paper](https://arxiv.org/pdf/1408.5882.pdf)
 
