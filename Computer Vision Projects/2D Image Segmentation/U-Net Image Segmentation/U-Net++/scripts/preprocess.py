@@ -11,8 +11,8 @@ from PIL import Image
 from dataloader import Dataload
 
 transforms = transforms.Compose([transforms.ToTensor(),])
-train_dataset = Dataload("/content/drive/MyDrive/U-Net_DataSet/", transforms)
-path = "/content/drive/MyDrive/U-Net_Train_Deformed/"
+train_dataset = Dataload("./inputs", transforms)
+path = "./inputs/U-Net_Train_Deformed/"
 
 for j in range(1,15):
     for i in range(30):

@@ -24,27 +24,27 @@ from model import *
 from dataloader import *
 from tqdm import trange
 
-path = "/content/drive/MyDrive/U-Net_DataSet"
+path = "./inputs"
 batch_size = 1
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 transform = transforms.Compose([transforms.ToTensor()])
-print("Starting to load dataset")
-train_dataset = Dataload("/content/drive/MyDrive/U-Net_Train_Deformed", transform)
+
+train_dataset = Dataload("./inputs/U-Net_Train_Deformed", transform)
 train_set, val_set = train_test_split(train_dataset, test_size=0.2, random_state=42)
 train_dataloader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers = 2)
 val_dataloader = torch.utils.data.DataLoader(val_set, batch_size=batch_size, shuffle=False, num_workers = 2)
 
-test_dataset = Dataload_Test("/content/drive/MyDrive/U-Net_DataSet", transform)
+test_dataset = Dataload_Test("./inputs", transform)
 test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=False, num_workers = 2)
-print("Dataset loading done")
+
 epoch_train_losses = []              # Defining an empty list to store the epoch losses
 epoch_val_losses = []             
 accu_train_epoch = []                # Defining an empty list to store the accuracy per epoch
 accu_val_epoch = []
 
 model = UNetPP(DenseBlock, BasicDownBlock, BasicUpBlock)
-print("Model is loaded")
+
 def make_tensor(tensor):
       if torch.cuda.is_available():
         return torch.cuda.FloatTensor(tensor)
@@ -165,7 +165,7 @@ for epoch in trange(epochs):
             'model_state_dict': model.state_dict(),
             'optimizer_state_dict': optimizer.state_dict(),
             'loss': epoch_val_losses[-1],
-            }, '/content/drive/MyDrive/U-Net++.pt')
+            }, 'U-Net++.pt')
     end_time = time.monotonic()
     epoch_mins, epoch_secs = epoch_time(start_time, end_time)
     torch.cuda.empty_cache()
