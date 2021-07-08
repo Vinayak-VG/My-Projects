@@ -13,7 +13,7 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
     * [DCGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/Generative%20Adversarial%20Networks%20-%20GAN/DCGAN)
     * [StackGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/Generative%20Adversarial%20Networks%20-%20GAN/StackGAN)
 
-## Natural Language Processing:
+## Natural Language Processing Projects:
   * Text Classification
     * [KimCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural%20Language%20Processing/Text%20Classification/KimCNN)
     * [CharacterCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural%20Language%20Processing/Text%20Classification/CharacterCNN)     
