@@ -7,8 +7,9 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
     * [U-Net Image Segmentation](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/2D_Image_Segmentation/U-Net_Image_Segmentation)
       * [U-Net](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/2D_Image_Segmentation/U-Net_Image_Segmentation/U-Net)
       * [U-Net++](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/2D_Image_Segmentation/U-Net_Image_Segmentation/U-Net%2B%2B)
-  * 3D Semantic Segmentation
-    * [PointNet](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Semantic_Segmentation/PointNet)
+  * 3D Segmentation
+    * [3D Part Segmentation](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Segmentation/3D_Part_Segmentation)
+      * [PointNet](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Segmentation/3D_Part_Segmentation/PointNet)
   * Generative Adversarial Networks (GAN)
     * [DCGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/DCGAN)
     * [StackGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/StackGAN)
