@@ -4,19 +4,19 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
 
 ## Computer Vision Projects: 
   * 2D Image Segmentation
-    * [U-Net Image Segmentation](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/2D%20Image%20Segmentation/U-Net%20Image%20Segmentation)
-      * [U-Net](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/2D%20Image%20Segmentation/U-Net%20Image%20Segmentation/U-Net)
-      * [U-Net++](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/2D%20Image%20Segmentation/U-Net%20Image%20Segmentation/U-Net%2B%2B)
+    * [U-Net Image Segmentation](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/2D_Image_Segmentation/U-Net_Image_Segmentation)
+      * [U-Net](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/2D_Image_Segmentation/U-Net_Image_Segmentation/U-Net)
+      * [U-Net++](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/2D_Image_Segmentation/U-Net_Image_Segmentation/U-Net%2B%2B)
   * 3D Semantic Segmentation
-    * [PointNet](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/3D%20Semantic%20Segmentation/PointNet)
+    * [PointNet](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Semantic_Segmentation/PointNet)
   * Generative Adversarial Networks (GAN)
-    * [DCGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/Generative%20Adversarial%20Networks%20-%20GAN/DCGAN)
-    * [StackGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer%20Vision%20Projects/Generative%20Adversarial%20Networks%20-%20GAN/StackGAN)
+    * [DCGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/DCGAN)
+    * [StackGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/StackGAN)
 
 ## Natural Language Processing Projects:
   * Text Classification
-    * [KimCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural%20Language%20Processing/Text%20Classification/KimCNN)
-    * [CharacterCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural%20Language%20Processing/Text%20Classification/CharacterCNN)     
+    * [KimCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural_Language_Processing/Text_Classification/KimCNN)
+    * [CharacterCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural_Language_Processing/Text_Classification/CharacterCNN)     
 
 ## What's New
 ### 8th July
