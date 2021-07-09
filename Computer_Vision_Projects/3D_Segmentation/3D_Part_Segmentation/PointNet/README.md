@@ -6,7 +6,7 @@
 
 Usually, Point Cloud representations are converted to mesh or voxel representations because of their irregularity. But converting them into mesh or voxels causes unnecessary addition of data and causes issues. This paper presents a novel architecture that takes in the point cloud directly. This model allows for object classification, part segmentation, to scene semantic parsing.
 
-<img width="726" alt="Screenshot 2021-07-03 at 9 20 05 AM" src="https://user-images.githubusercontent.com/80670240/124344550-8d0cea80-dbf0-11eb-874d-e456732dc19b.png">
+<img width="579" alt="Screenshot 2021-07-09 at 5 40 39 PM" src="https://user-images.githubusercontent.com/80670240/125079244-028d2500-e0e1-11eb-8b09-28e4f1a93ff9.png">
 
 ### Invariance of the model
 
@@ -14,11 +14,16 @@ We need to make sure that the model is not affected by the variance of the point
 
 Suppose a point in the cloud is disturbed by a small amount, this disturbance should not affect the model predictions since it is common in Point Cloud representation for small noises. Since the points are not isolated and are always closely spaced in the point cloud, we should also consider the local features/information wrt to that point while making predictions.
 
+
 ### PointNet Architecture
 
 <img width="845" alt="Screenshot 2021-07-03 at 11 21 25 AM" src="https://user-images.githubusercontent.com/80670240/124344602-d2c9b300-dbf0-11eb-9dfb-e294a7e5198d.png">
 
-The PointNet is a simple but efficient and powerful model. We will concentrate on the segmentation network more. The PointNet architecture is made up of MLPs, transformation networks and max-pooling. For Semantic Segmentation, we need to have both global and local features since we draw the boundary locally. Hence we use both global and local features in our network for the Segmentation task
+<img width="717" alt="Screenshot 2021-07-09 at 5 42 25 PM" src="https://user-images.githubusercontent.com/80670240/125079352-1fc1f380-e0e1-11eb-857c-33dc7a11335f.png">
+
+The above network is used exclusively for Part-Segmentation
+
+The PointNet is a simple but efficient and powerful model. We will concentrate on the segmentation network more. The PointNet architecture is made up of MLPs, transformation networks and max-pooling. For Part Segmentation, we need to have both global and local features since we draw the boundary locally. Hence we use both global and local features in our network for the Segmentation task
 
 To make the model invariant to the input data, we create a mini-network that predicts a 3x3 transformation grid, which is multiplied with the input matrix to get an invariant matrix. Basically think in this way: Assume the point cloud in the 3D space is rotated by an angle θ. So basically this 3x3 grid is kind of a rotational matrix. So using the input data, the mini-network predicts the appropriate 3x3 grid which rotates the point cloud in the opposite direction(rotates the point cloud by an angle -θ). So now given any rotation of the input point cloud, the model removes the rotation variance of the input point cloud using this mini neural network
 
@@ -31,16 +36,18 @@ Similarly, we predict extend this method to remove the variance for the features
 
 The point cloud representation is an unordered representation when compared to pixels in a 2d image or voxels in a 3d volume. Hence sampling points in any order should not affect the model performance and the model should always almost predict the same output
 
-<img width="342" alt="Screenshot 2021-07-02 at 11 47 31 PM" src="https://user-images.githubusercontent.com/80670240/124344630-0f95aa00-dbf1-11eb-8bf0-13be1ba404fd.png">
+<img width="205" alt="Screenshot 2021-07-09 at 5 46 43 PM" src="https://user-images.githubusercontent.com/80670240/125079655-834c2100-e0e1-11eb-9bb2-50623a5f147a.png">
 
 So to tackle this problem, we use the Max-Pooling layer which basically removes the problem of unorderedness. Since we do max pooling across the layers, it really does not matter the order we sample the points from the point cloud
-We concatenate the local and global features which makes optimisation faster since for Scene Segmentation, it is important for the model to be aware of the local variables as well
+We concatenate the local and global features which makes optimisation faster since for Part Segmentation, it is important for the model to be aware of the local variables as well
 
 ### Dataset 
 
-We experiment on the [Stanford 3D Semantic Parsing Dataset](http://buildingparser.stanford.edu/dataset.html). The dataset contains 3D scans from Matterport scanners in 6 areas including 271 rooms. Each point in the scan is annotated with one of the semantic labels from 13 categories (chair, table, floor, wall etc. plus clutter). To prepare training data, we firstly split points by room, and then sample rooms into blocks with area 1m by 1m. We train our segmentation version of PointNet to predict per point class in each block
+We evaluate on [ShapeNet Part Dataset](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip), which contains 16,881 shapes from 16 categories, annotated with 50 parts in total. Most object categories are labelled with two to five parts. Ground truth annotations are labelled on sampled points on the shapes. We formulate part segmentation as a per-point classification problem.
 
-Each point is represented by a 9-dim vector of XYZ, RGB and normalized location as to the room (from 0 to 1). At training time, we randomly sample 4096 points from each room
+### Evaluation Metric
+
+The evaluation metric is mIoU on points. For each shape S of category C, to calculate the shape’s mIoU: For each part type in category C, compute IoU between ground truth and prediction. If the union of ground truth and prediction points is empty, then count part IoU as 1. Then we average IoUs for all part types in category C to get mIoU for that shape. To calculate mIoU for the category, we take the average of mIoUs for all shapes in that category.
 
 ### Training
 No Dropouts used. The [momentum for batch normalization](https://medium.com/@ilango100/batchnorm-fine-tune-your-booster-bef9f9493e22) starts with 0.5 and is gradually increased to 0.99. We use adam optimizer with an initial learning rate 0.001, momentum 0.9 and batch size 32. The learning rate is divided by 2 every 20 epochs.
