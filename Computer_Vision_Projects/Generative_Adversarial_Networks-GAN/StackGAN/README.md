@@ -80,3 +80,7 @@ To know more about StackGAN, check out the paper: [StackGAN](https://arxiv.org/p
 
 To check out the Pytorch Implementation of the StackGAN model, check out my GitHub Repo: [GitHub Repo](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/DCGAN)
 
+---
+
+[Vinayak Gupta](https://github.com/Vinayak-VG)
+9th July 2021
