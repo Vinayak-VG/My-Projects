@@ -9,3 +9,13 @@
 **Pytorch Implementation** : [![Open All Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/DCGAN)
 
 **Dataset**: [CelebA Faces](https://www.kaggle.com/jessicali9530/celeba-dataset)
+
+## Results
+
+![caption](https://user-images.githubusercontent.com/80670240/126026967-0c92e354-1a4d-403a-b08b-c92881ea4300.mp4)
+
+---
+
+[Vinayak Gupta](https://github.com/Vinayak-VG) 17th July 2021
+
+

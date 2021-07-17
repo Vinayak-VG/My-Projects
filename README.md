@@ -21,6 +21,10 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
 
 ## What's New
 
+### 17th July 2021
+
+  * Pushed the DCGAN code and results 
+ 
 ### 9th July 2021
 
   * Added the StackGAN report/summary
