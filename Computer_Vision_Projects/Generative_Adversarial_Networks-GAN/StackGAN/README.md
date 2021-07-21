@@ -24,7 +24,7 @@ They have divided the problem into 2 modules:
 
 We need to embed the text descriptions into an embedding vector so that they can be fed into the generator and discriminator. We can use Word2Vec or Glove for this process. But the authors recommend using the encoder used in this [paper](https://arxiv.org/pdf/1605.05395.pdf)
 
-It is important features from the text descriptions, otherwise we will miss those features while generating the image
+It is important that we retain the features from the text descriptions, otherwise we will miss those features while generating the image
 
 ### Conditioning Augmentation
 
