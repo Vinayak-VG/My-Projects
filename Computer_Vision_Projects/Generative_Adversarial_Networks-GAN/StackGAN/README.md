@@ -28,7 +28,7 @@ It is important that we retain the features from the text descriptions, otherwis
 
 ### Conditioning Augmentation
 
-If we have fewer Text-Image pairs then there is a high chance that GAN models can collapse. To prevent this, the authors increase the dataset and hence encourages robustness to small disturbances
+If we have fewer Text-Image pairs then there is a high chance that GAN models can collapse. To prevent this, the authors use Conditioning Augmentation which encourages robustness to small disturbances
 
 We use 2 fully connected layers, with the input as the text embedding and the output as the vector of the mean(μ0) and variance(σ0). Now we find the text conditioning variable cˆ0 by   c^0 = μ0 + σ0*ε, where ε is sampled from a normal distribution of mean = 0 and variance = 1. 
 
