@@ -56,6 +56,10 @@ Loss Function: Softmax classification loss + Regularisation loss
 
 Accuracy Metric: IoU Score and Per-Point classification accuracy
 
+### Results
+![BeFunky-collage](https://user-images.githubusercontent.com/80670240/127381364-cc8515b4-ff7b-499e-83f0-a157d344e376.jpg)
+Accuracy : 91.9%
+
 ### EndNote
 To get to know more about the model, check out the paper: [PointNet](https://arxiv.org/pdf/1612.00593.pdf)
 
