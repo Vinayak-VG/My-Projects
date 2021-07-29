@@ -1,5 +1,7 @@
 # PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 
+### Pytorch Implementation of PointNet for Part Segmentation : [PointNet](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Segmentation/3D_Part_Segmentation/PointNet/scripts)
+
 ## Summary
 
 ### Introduction
