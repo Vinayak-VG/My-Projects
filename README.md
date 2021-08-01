@@ -21,6 +21,14 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
 
 ## What's New
 
+### 1st August 2021
+
+  * Pushed StackGAN code and results and documented it
+
+### 28th July 2021
+
+  * Pushed PointNet code and results and documented it
+
 ### 17th July 2021
 
   * Pushed the DCGAN code and results 
