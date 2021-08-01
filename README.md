@@ -23,15 +23,15 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
 
 ### 1st August 2021
 
-  * Pushed StackGAN code and results and documented it
+  * Pushed [StackGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/StackGAN) code and results and documented it
 
 ### 28th July 2021
 
-  * Pushed PointNet code and results and documented it
+  * Pushed [PointNet](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Segmentation/3D_Part_Segmentation/PointNet) code and results and documented it
 
 ### 17th July 2021
 
-  * Pushed the DCGAN code and results 
+  * Pushed the [DCGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/DCGAN) code and results 
  
 ### 9th July 2021
 
@@ -39,7 +39,7 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
  
 ### 8th July 2021
   
-  * Pushed KimCNN and CharacterCNN under NLP
+  * Pushed [KimCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural_Language_Processing/Text_Classification/KimCNN) and [CharacterCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural_Language_Processing/Text_Classification/CharacterCNN) under NLP
   * Started working on DCGAN
   * Started working on StackGAN
 
@@ -54,4 +54,4 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
 ### 1st June 2021
 
   * Pushed the first code in the My-Projects GitHub Repo (U-Net is my first project)  
-  * Properly documented the code and the datasets for U-Net and U-Net++ and wrote the Readme File
+  * Properly documented the code and the datasets for [U-Net](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/2D_Image_Segmentation/U-Net_Image_Segmentation/U-Net) and [U-Net++](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/2D_Image_Segmentation/U-Net_Image_Segmentation/U-Net%2B%2B) and wrote the Readme File
