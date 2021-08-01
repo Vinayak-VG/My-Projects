@@ -1,5 +1,7 @@
 # StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks
 
+### Pytorch Implementation of StackGAN : [StackGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/StackGAN/scripts)
+
 ## Summary 
 
 ### Introduction
