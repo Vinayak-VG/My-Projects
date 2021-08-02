@@ -70,11 +70,16 @@ First, the Stage-I GAN is trained keeping Stage-II GAN fixed and  then the Stage
 
 x denotes one generated sample, and y is the label predicted by the Inception model. The intuition behind this metric is that good models should generate diverse but meaningful images. Therefore, the KL divergence between the marginal distribution p(y) and the conditional distribution p(y|x) should be large
 
-### Results
+### Author's Results
 
 <img width="486" alt="Screenshot 2021-07-09 at 1 46 22 PM" src="https://user-images.githubusercontent.com/80670240/125049069-31de6a80-e0be-11eb-85a7-849ee3657d75.png">
 
 <img width="1064" alt="Screenshot 2021-07-09 at 1 46 56 PM" src="https://user-images.githubusercontent.com/80670240/125049075-33a82e00-e0be-11eb-8675-0f6323357a4f.png">
+
+### My Results
+
+<img width="633" alt="Screenshot 2021-08-02 at 8 32 47 PM" src="https://user-images.githubusercontent.com/80670240/127882665-ecbc9c89-f3a3-4875-845b-d652b327e020.png">
+Definitely my results are not comparable with the Author's result but yeah something is better than nothing :)
 
 ### End Note
 
