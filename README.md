@@ -19,7 +19,15 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
     * [KimCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural_Language_Processing/Text_Classification/KimCNN)
     * [CharacterCNN](https://github.com/Vinayak-VG/My-Projects/tree/main/Natural_Language_Processing/Text_Classification/CharacterCNN)     
 
+## Reinforcement Learning Projects:
+  * [Painting with RL](https://github.com/Vinayak-VG/My-Projects/tree/main/Reinforcement%20Learning/Painting%20with%20RL)
+
+
 ## What's New
+
+### 4th August 2021
+
+  * Started [Painting with RL](https://github.com/Vinayak-VG/My-Projects/tree/main/Reinforcement%20Learning/Painting%20with%20RL) and added the summary/report
 
 ### 1st August 2021
 
