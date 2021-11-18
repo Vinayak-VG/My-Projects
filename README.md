@@ -25,6 +25,10 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
 
 ## What's New
 
+### 18th November 2021
+
+  * Started [NeRF] and added the summary/report
+
 ### 4th August 2021
 
   * Started [Painting with RL](https://github.com/Vinayak-VG/My-Projects/tree/main/Reinforcement%20Learning/Painting%20with%20RL) and added the summary/report
