@@ -10,6 +10,8 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
   * 3D Segmentation
     * [3D Part Segmentation](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Segmentation/3D_Part_Segmentation)
       * [PointNet](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Segmentation/3D_Part_Segmentation/PointNet)
+  * 3D Reconstruction
+      * [NeRF--](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Reconstruction/NeRF--)
   * Generative Adversarial Networks (GAN)
     * [DCGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/DCGAN)
     * [StackGAN](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/Generative_Adversarial_Networks-GAN/StackGAN)
@@ -27,7 +29,7 @@ This GitHub Repository is the collection of all the Machine Learning and Deep Le
 
 ### 18th November 2021
 
-  * Started [NeRF] and added the summary/report
+  * Started [NeRF--](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Reconstruction/NeRF--) and added the summary/report
 
 ### 4th August 2021
 
