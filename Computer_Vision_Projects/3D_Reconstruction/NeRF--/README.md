@@ -94,7 +94,6 @@ To get to know more about the model, check out the paper: [NeRF--](https://arxiv
 ---
 
 [Vinayak Gupta](https://github.com/Vinayak-VG)
-
 21st Nov 2021
 
 
