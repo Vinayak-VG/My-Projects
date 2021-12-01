@@ -1,6 +1,6 @@
 # NeRF−−: Neural Radiance Fields Without Known Camera Parameters
 
-### Pytorch Implementation of NeRF-- for 3D Reconstruction : [NeRF--](https://github.com/Vinayak-VG/My-Projects/tree/main/Computer_Vision_Projects/3D_Reconstruction/NeRF--)
+### Pytorch Implementation of NeRF-- for 3D Reconstruction : [NeRF--](https://github.com/Vinayak-VG/My-Projects/blob/main/Computer_Vision_Projects/3D_Reconstruction/NeRF--/scripts/NeRF--.ipynb)
 
 ## Summary
 
